@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ВекторЛайн — грузоперевозки по России</title>
+<meta name="description" content="Грузоперевозки по Москве, области и всей России: FTL, LTL, рефрижераторы, экспресс-доставка. Расчёт стоимости онлайн.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23ff5a1f'/><path d='M8 10h9l7 6-7 6H8l7-6z' fill='white'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a href="#" class="logo">
+      <svg viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M8 10h9l7 6-7 6H8l7-6z" fill="#fff"/></svg>
+      <span>ВекторЛайн</span>
+    </a>
+    <nav class="nav__links" id="menu">
+      <a href="#services">Услуги</a>
+      <a href="#calc">Расчёт</a>
+      <a href="#fleet">Автопарк</a>
+      <a href="#how">Как работаем</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="tel:+78000000000" class="nav__phone">8 800 000-00-00</a>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="wrap hero__in">
+    <div class="hero__text">
+      <span class="pill"><i class="dot"></i> Подача машины от 60 минут</span>
+      <h1>Довезём груз&nbsp;вовремя.<br><em>Каждый раз.</em></h1>
+      <p class="lead">Грузоперевозки по Москве, области и всей России. Собственный автопарк из 240 машин, GPS-трекинг в реальном времени и страхование груза до 50 млн ₽.</p>
+      <div class="hero__cta">
+        <a href="#calc" class="btn btn--primary">Рассчитать стоимость</a>
+        <a href="#contacts" class="btn btn--ghost">Оставить заявку</a>
+      </div>
+      <div class="stats">
+        <div><b data-count="12">0</b><span>лет на рынке</span></div>
+        <div><b data-count="240">0</b><span>машин в парке</span></div>
+        <div><b data-count="98">0</b><span>% доставок в срок</span></div>
+      </div>
+    </div>
+    <div class="hero__card">
+      <div class="track">
+        <div class="track__head">
+          <span>Отслеживание</span>
+          <span class="live"><i class="dot"></i>LIVE</span>
+        </div>
+        <div class="track__id">Рейс № VL-48217</div>
+        <div class="route">
+          <div class="route__pt"><i></i><div><b>Москва</b><small>Склад, Ижорская ул.</small></div></div>
+          <div class="route__line"><div class="route__truck">
+            <svg viewBox="0 0 48 24" width="44" height="22"><rect x="1" y="3" width="28" height="15" rx="2" fill="var(--accent)"/><path d="M29 7h9l6 6v5H29z" fill="#fff"/><circle cx="10" cy="20" r="3" fill="#0b1020"/><circle cx="37" cy="20" r="3" fill="#0b1020"/></svg>
+          </div></div>
+          <div class="route__pt"><i></i><div><b>Казань</b><small>РЦ, ул. Техническая</small></div></div>
+        </div>
+        <div class="track__meta">
+          <div><small>Прибытие</small><b>Завтра, 09:40</b></div>
+          <div><small>Пройдено</small><b>486 / 820 км</b></div>
+          <div><small>Груз</small><b>18 т · 33 палл.</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="logos">
+  <div class="wrap logos__in">
+    <span>Перевозим для ритейла, производства и e-commerce</span>
+    <div class="logos__row">
+      <b>РИТЕЙЛ</b><b>ДИСТРИБУЦИЯ</b><b>FMCG</b><b>СТРОЙМАТЕРИАЛЫ</b><b>E-COMMERCE</b><b>ФАРМА</b>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker">Услуги</span>
+      <h2>Любой груз — от коробки до фуры</h2>
+    </div>
+    <div class="services">
+      <article class="svc svc--big">
+        <div class="svc__ico"><svg viewBox="0 0 24 24"><path d="M3 6h11v9H3zM14 9h4l3 3v3h-7z"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></div>
+        <h3>Полная загрузка (FTL)</h3>
+        <p>Отдельная машина под ваш груз: тенты 20 т, 82–120 м³. Без перегрузов и сборных точек — от двери до двери.</p>
+        <span class="svc__price">от 38 ₽/км</span>
+      </article>
+      <article class="svc">
+        <div class="svc__ico"><svg viewBox="0 0 24 24"><path d="M4 7l8-4 8 4v10l-8 4-8-4zM4 7l8 4 8-4M12 11v10"/></svg></div>
+        <h3>Сборные грузы (LTL)</h3>
+        <p>Платите только за свои паллеты. Отправки по 60+ направлениям ежедневно.</p>
+        <span class="svc__price">от 1 400 ₽/палл.</span>
+      </article>
+      <article class="svc">
+        <div class="svc__ico"><svg viewBox="0 0 24 24"><path d="M12 2v20M4.9 6l14.2 12M19.1 6L4.9 18"/></svg></div>
+        <h3>Рефрижераторы</h3>
+        <p>Температура от −25 до +25 °C с онлайн-логированием на всём пути.</p>
+        <span class="svc__price">от 46 ₽/км</span>
+      </article>
+      <article class="svc">
+        <div class="svc__ico"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></div>
+        <h3>Экспресс по городу</h3>
+        <p>Газели и каблуки с подачей от 60 минут. Доставка «последней мили».</p>
+        <span class="svc__price">от 1 200 ₽/час</span>
+      </article>
+      <article class="svc">
+        <div class="svc__ico"><svg viewBox="0 0 24 24"><path d="M3 21V9l9-6 9 6v12M8 21v-7h8v7"/></svg></div>
+        <h3>Ответственное хранение</h3>
+        <p>Склад класса А 12 000 м², кросс-докинг, комплектация заказов.</p>
+        <span class="svc__price">от 18 ₽/палл./сут.</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="calc">
+  <div class="wrap calc">
+    <div class="calc__text">
+      <span class="kicker">Калькулятор</span>
+      <h2>Узнайте стоимость за&nbsp;30&nbsp;секунд</h2>
+      <p>Предварительный расчёт. Точную цену менеджер подтвердит в течение 15 минут после заявки — она не вырастет после погрузки.</p>
+      <ul class="checks">
+        <li>Фиксированная цена в договоре</li>
+        <li>НДС и страхование включены</li>
+        <li>Оплата по факту доставки</li>
+      </ul>
+    </div>
+    <form class="calc__form" id="calcForm" onsubmit="return false">
+      <div class="row">
+        <label>Откуда<input id="from" value="Москва" list="cities"></label>
+        <label>Куда<input id="to" value="Санкт-Петербург" list="cities"></label>
+      </div>
+      <datalist id="cities"></datalist>
+      <label>Тип транспорта
+        <div class="seg" id="vehicle">
+          <button type="button" data-v="gazel">Газель 1,5 т</button>
+          <button type="button" data-v="5t">5 т</button>
+          <button type="button" data-v="10t">10 т</button>
+          <button type="button" data-v="fura" class="on">Фура 20 т</button>
+        </div>
+      </label>
+      <div class="row">
+        <label>Вес груза, т<input id="weight" type="number" min="0.1" step="0.1" value="12"></label>
+        <label class="switch"><input type="checkbox" id="ref"><span></span>Рефрижератор</label>
+      </div>
+      <div class="result">
+        <div>
+          <small id="distLabel">≈ 710 км · 1 день в пути</small>
+          <div class="result__sum" id="sum">—</div>
+        </div>
+        <a href="#contacts" class="btn btn--primary" id="toOrder">Оформить</a>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="section" id="fleet">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker">Автопарк</span>
+      <h2>240 своих машин. Средний возраст — 3 года</h2>
+    </div>
+    <div class="fleet">
+      <div class="truck-card">
+        <svg viewBox="0 0 200 90" class="truck-svg"><rect x="10" y="25" width="95" height="45" rx="4" class="b"/><path d="M105 38h30l18 18v14h-48z" class="c"/><path d="M112 42h20l12 12h-32z" class="w"/><circle cx="35" cy="74" r="10" class="t"/><circle cx="130" cy="74" r="10" class="t"/></svg>
+        <h3>Газель Next</h3><dl><dt>Грузоподъёмность</dt><dd>1,5 т</dd><dt>Объём</dt><dd>16 м³</dd><dt>В парке</dt><dd>86</dd></dl>
+      </div>
+      <div class="truck-card">
+        <svg viewBox="0 0 200 90" class="truck-svg"><rect x="8" y="15" width="120" height="55" rx="4" class="b"/><path d="M128 32h32l22 22v16h-54z" class="c"/><path d="M135 36h22l15 15h-37z" class="w"/><circle cx="35" cy="74" r="10" class="t"/><circle cx="155" cy="74" r="10" class="t"/></svg>
+        <h3>Средняя 5–10 т</h3><dl><dt>Грузоподъёмность</dt><dd>5–10 т</dd><dt>Объём</dt><dd>36–54 м³</dd><dt>В парке</dt><dd>72</dd></dl>
+      </div>
+      <div class="truck-card">
+        <svg viewBox="0 0 200 90" class="truck-svg"><rect x="4" y="12" width="140" height="56" rx="3" class="b"/><path d="M148 26h22l24 22v22h-46z" class="c"/><path d="M154 30h14l18 16h-32z" class="w"/><circle cx="24" cy="74" r="9" class="t"/><circle cx="46" cy="74" r="9" class="t"/><circle cx="172" cy="74" r="9" class="t"/></svg>
+        <h3>Фура 20 т</h3><dl><dt>Грузоподъёмность</dt><dd>20 т</dd><dt>Объём</dt><dd>82–120 м³</dd><dt>В парке</dt><dd>64</dd></dl>
+      </div>
+      <div class="truck-card">
+        <svg viewBox="0 0 200 90" class="truck-svg"><rect x="4" y="12" width="140" height="56" rx="3" class="b b--ref"/><path d="M20 30l8 8m0-8l-8 8M24 26v16M16 34h16" stroke="#fff" stroke-width="2"/><path d="M148 26h22l24 22v22h-46z" class="c"/><path d="M154 30h14l18 16h-32z" class="w"/><circle cx="24" cy="74" r="9" class="t"/><circle cx="46" cy="74" r="9" class="t"/><circle cx="172" cy="74" r="9" class="t"/></svg>
+        <h3>Рефрижератор</h3><dl><dt>Грузоподъёмность</dt><dd>20 т</dd><dt>Режим</dt><dd>−25…+25 °C</dd><dt>В парке</dt><dd>18</dd></dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft" id="how">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker">Как работаем</span>
+      <h2>Четыре шага от заявки до&nbsp;подписанных документов</h2>
+    </div>
+    <ol class="steps">
+      <li><span>01</span><h3>Заявка</h3><p>Через сайт, телефон или API. Менеджер перезвонит за 15 минут.</p></li>
+      <li><span>02</span><h3>Договор и цена</h3><p>Фиксируем стоимость и сроки. Работаем с НДС, ЭДО.</p></li>
+      <li><span>03</span><h3>Перевозка</h3><p>Ссылка на трекинг, уведомления в Telegram о каждом этапе.</p></li>
+      <li><span>04</span><h3>Закрывающие</h3><p>ТТН, акты и счёт-фактура в ЭДО на следующий день после доставки.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="geo">
+  <div class="wrap geo">
+    <div>
+      <span class="kicker">География</span>
+      <h2>Регулярные рейсы в 60+ городов</h2>
+      <p class="muted">Ежедневные отправки сборных грузов из Москвы и Санкт-Петербурга. Работаем по всей России и в страны ЕАЭС.</p>
+      <div class="cities" id="cityTags"></div>
+    </div>
+    <div class="geo__map">
+      <svg viewBox="0 0 400 260" id="map">
+        <defs><radialGradient id="g"><stop offset="0" stop-color="var(--accent)" stop-opacity=".5"/><stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></radialGradient></defs>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft" id="reviews">
+  <div class="wrap">
+    <div class="head">
+      <span class="kicker">Отзывы</span>
+      <h2>Что говорят клиенты</h2>
+    </div>
+    <div class="reviews">
+      <figure><blockquote>«Перевели на них всю региональную доставку. За полгода ни одного срыва окна приёмки на РЦ сетей».</blockquote><figcaption><b>Ирина К.</b><span>руководитель логистики, дистрибуция</span></figcaption></figure>
+      <figure><blockquote>«Рефы с логгером температуры — для нас это обязательное требование. Отчёт приходит сразу после выгрузки».</blockquote><figcaption><b>Алексей М.</b><span>директор по цепям поставок, пищевое производство</span></figcaption></figure>
+      <figure><blockquote>«Удобно, что документы приходят в ЭДО. Бухгалтерия наконец перестала ловить водителей за подписями».</blockquote><figcaption><b>Ольга Т.</b><span>финансовый директор, интернет-магазин</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="wrap faq">
+    <div class="head"><span class="kicker">FAQ</span><h2>Частые вопросы</h2></div>
+    <div class="faq__list">
+      <details open><summary>Застрахован ли груз?</summary><p>Да, каждая перевозка застрахована на сумму до 50 млн ₽. Стоимость страховки уже включена в тариф.</p></details>
+      <details><summary>Работаете с физическими лицами?</summary><p>Да, по городу и области — для переездов и доставки крупногабаритных покупок. Оплата картой или по QR.</p></details>
+      <details><summary>Можно ли отследить машину?</summary><p>После погрузки вы получаете ссылку на онлайн-трекинг. Положение машины обновляется каждые 30 секунд.</p></details>
+      <details><summary>Какие документы нужны для отправки?</summary><p>Для юрлиц — договор или разовая заявка. Товарные документы на груз — ТТН/УПД, их можем оформить сами.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="contacts">
+  <div class="wrap contact">
+    <div>
+      <span class="kicker">Контакты</span>
+      <h2>Оставьте заявку — перезвоним за&nbsp;15&nbsp;минут</h2>
+      <div class="contact__info">
+        <a href="tel:+78000000000"><small>Телефон, круглосуточно</small><b>8 800 000-00-00</b></a>
+        <a href="mailto:hello@vectorline.example"><small>Email</small><b>hello@vectorline.example</b></a>
+        <div><small>Офис и склад</small><b>Москва, ул. Складская, 1</b></div>
+      </div>
+    </div>
+    <form class="lead-form" id="leadForm">
+      <label>Имя<input name="name" required placeholder="Как к вам обращаться"></label>
+      <label>Телефон<input name="phone" type="tel" required placeholder="+7 (___) ___-__-__" id="phone"></label>
+      <label>Комментарий<textarea name="msg" rows="3" id="msg" placeholder="Маршрут, груз, дата"></textarea></label>
+      <label class="agree"><input type="checkbox" required checked> Согласен на обработку персональных данных</label>
+      <button class="btn btn--primary btn--full">Отправить заявку</button>
+      <div class="ok" id="ok" hidden>Спасибо! Заявка принята — менеджер скоро свяжется с вами.</div>
+    </form>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <span>© 2026 ВекторЛайн. Демо-сайт транспортной компании.</span>
+    <span>ИНН 0000000000 · ОГРН 0000000000000</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
